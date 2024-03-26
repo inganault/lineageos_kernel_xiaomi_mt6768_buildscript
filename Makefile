@@ -1,6 +1,3 @@
-# archlinux
-# yay -S curl clang aarch64-linux-gnu-binutils arm-linux-gnueabi-binutils inetutils build-essential
-
 all: boot-ksu.img
 
 download/aik-linux.tar.gz:
