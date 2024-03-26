@@ -24,5 +24,5 @@ boot-ksu.img: download/boot.img $(image_gz) aik-linux/extracted.stamp
 	mv aik-linux/image-new.img boot-ksu.img
 
 clean:
-	rm -r aik-linux $(image_gz)
+	rm -r aik-linux kernel/out
 .PHONY: clean
